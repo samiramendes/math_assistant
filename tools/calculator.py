@@ -12,7 +12,7 @@ def calculator(expression: str) -> str:
         "37593 * 67" for "37593 times 67"
         "37593**(1/5)" for "37593^(1/5)"
     """
-    try: 
+    try:
         local_dict = {
             "pi": math.pi,
             "e": math.e,

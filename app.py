@@ -1,7 +1,7 @@
 import chainlit as cl
 from langchain_groq import ChatGroq
 from langchain.agents.agent_types import AgentType
-from langchain.agents import Tool, initialize_agent
+from langchain.agents import initialize_agent
 from dotenv import load_dotenv
 import os
 from tools.calculator import calculator
