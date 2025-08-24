@@ -25,7 +25,7 @@ flowchart TD
     C --> D{Is it a math-related question?}
     
     D -- Yes --> E[Use Calculator tool]
-    D -- No --> F{Is it a factual question?\n(Person, place, event...)}
+    D -- No --> F{Is it a factual question? (Person, place, event...)}
 
     F -- Yes --> G[Use Wikipedia Search tool]
     F -- No --> H[Respond using internal LLM knowledge]
