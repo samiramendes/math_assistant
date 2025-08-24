@@ -20,17 +20,17 @@ Everything is integrated using Chainlit, which handles the chat interface and ma
 
 ```mermaid 
 flowchart TD
-    A[User sends a question] --> B[Chainlit receives the message and calls the agent]
+    A((User sends a question)) --> B[Chainlit receives the message and calls the agent]
     B --> C[Agent analyzes the question based on the prompt and available tools]
     C --> D{Is it a math-related question?}
     
     D -- Yes --> E[Use Calculator tool]
-    D -- No --> F{Is it a factual question? (Person, place, event...)}
+    D -- No --> F{"Is it a factual question? (Person, place, event...)"}
 
     F -- Yes --> G[Use Wikipedia Search tool]
     F -- No --> H[Respond using internal LLM knowledge]
 
-    E --> I[Return response to user]
+    E --> I((Return response to user))
     G --> I
     H --> I
  ```
