@@ -2,3 +2,5 @@
 *.env
 *.files
 chainlite/
+venv/
+chat/

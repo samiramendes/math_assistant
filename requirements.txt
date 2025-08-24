@@ -1,4 +1,5 @@
 chainlit
+langchain_groq
 python-dotenv
 langchain_community
 numexpr
