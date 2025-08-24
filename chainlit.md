@@ -5,8 +5,4 @@ I'm a AI chatbot assistant that can handle both math calculations and general kn
 
 ## Engineering ⚙️
 
-Built with LangChain agents and tools and Chainlit for the interactive frontend interface.
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+Built with LangChain agents and tools and the interactive interface is powered by Chainlit.
