@@ -1,7 +1,7 @@
 # Welcome to Math assistent! 🧮
 
 Hi there! 👋
-I'm a AI chatbot assistant that can handle both math calculations and general knowledge questions. 
+I'm a AI assistant that can handle both math calculations and general knowledge questions. 
 
 ## Engineering ⚙️
 

@@ -1,7 +1,7 @@
 # Math Assistent Chat using LangChain Agents, Groq and Chainlit
 
 ## Overview
-This repository contains the code for an AI chatbot assistant capable of handling both math calculations and general knowledge questions. The backend is built using LangChain agents and tools, and the interactive interface is powered by Chainlit.
+This repository contains the code for an AI assistant capable of handling both math calculations and general knowledge questions. The backend is built using LangChain agents and tools, and the interactive interface is powered by Chainlit.
 
 ## Features
 
