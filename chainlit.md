@@ -1,13 +1,11 @@
 # Welcome to Math assistent! 🧮
 
-Hi there! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there! 👋
+I'm a AI chatbot assistant that can handle both math calculations and general knowledge questions. 
 
-## Useful Links 🔗
+## Engineering ⚙️
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
-
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+Built with LangChain agents and tools and Chainlit for the interactive frontend interface.
 
 ## Welcome screen
 
