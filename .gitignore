@@ -1,6 +1,6 @@
 # .gitignore
 *.env
 *.files
-chainlite/
+.chainlite/
 venv/
-chat/
+.vscode/
