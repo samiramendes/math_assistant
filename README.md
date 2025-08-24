@@ -24,10 +24,10 @@ flowchart TD
     B --> C[Agent analyzes the question based on the prompt and available tools]
     C --> D{Is it a math-related question?}
     
-    D -- Yes --> E[Use the "Calculator" tool]
+    D -- Yes --> E[Use Calculator tool]
     D -- No --> F{Is it a factual question?\n(Person, place, event...)}
 
-    F -- Yes --> G[Use the "Wikipedia Search" tool]
+    F -- Yes --> G[Use Wikipedia Search tool]
     F -- No --> H[Respond using internal LLM knowledge]
 
     E --> I[Return response to user]
